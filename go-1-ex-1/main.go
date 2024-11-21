@@ -10,7 +10,7 @@ func main() {
 	monthOfBirth := 6
 	yearOfBirth := 1923
 
-	numberOfSiblings := 1
+	var numberOfSiblings byte = 1
 	var heightInMeters float32 = 1.88
 
 	zodiacSign := '\u264b'
