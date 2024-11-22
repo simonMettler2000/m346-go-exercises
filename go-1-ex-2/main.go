@@ -22,5 +22,3 @@ func main() {
 	var boilingWaterFahrenheit = boilingWaterCelsius*1.8 + 32 // TODO: calculate using formula above!
 	fmt.Printf("water boils at %.2f°C = %.2f°F\n", boilingWaterCelsius, boilingWaterFahrenheit)
 }
-
-// run: go run main.go dsfa
