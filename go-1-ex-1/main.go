@@ -10,3 +10,5 @@ func main() {
 	fmt.Printf("Grösse (in Metern): %.2f\n", heightInMeters)
 	fmt.Printf("Sternzeichen: %c\n", zodiacSign)
 }
+
+//Test commit
