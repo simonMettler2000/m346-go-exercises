@@ -19,4 +19,6 @@ func main() {
 	fmt.Printf("Sternzeichen: %s\n", zodiacSign)
 }
 
+// how to run: go run main.go
+
 //Test commit
