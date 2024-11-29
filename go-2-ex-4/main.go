@@ -38,8 +38,8 @@ func main() {
     }
 
     fmt.Println("Classes:")
-    fmt.Println("INF20:", INA23aL)
-    fmt.Println("INF21:", INA23bL)
+    fmt.Println("INA23aL:", INA23aL)
+    fmt.Println("INF2INA23bL1:", INA23bL)
     fmt.Println("\nModules:")
     fmt.Println("Module 346:", modules[346])
     fmt.Println("Module 254:", modules[254])
