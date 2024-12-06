@@ -29,6 +29,12 @@ func outputDateRange(zodiacSign rune) {
 		fmt.Println("")
 	}
 	// TODO: ...and consider a default case.
+	switch(zodiacSign){
+	case Aries:
+		fmt.Println("21.3. - 20.4")
+	case Taurus:
+		fmt.Println("21.4. - 20.5")
+	}
 }
 
 func main() {

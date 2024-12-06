@@ -22,7 +22,21 @@ func outputWithZodiacSign(p Person) {
 
 	// TODO: Assign proper value to zodiacSign using if/else branching.
 	// NOTE: The runes are defined above as constants.
-
+	if(BirthDate.Day == 9 && BirthDate.Month == 12){
+		zodiacSign = "Schütze"
+	}
+	else if(BirthDate.Day == 9 && BirthDate.Month == 9){
+		zodiacSign = "Jungfrau"
+	}
+	else if(BirthDate.Day == 6 && BirthDate.Month == 2){
+		zodiacSign = "Wassermann"
+	}
+	else if(BirthDate.Day == 11 && BirthDate.Month == 5){
+		zodiacSign = "Stier"
+	}
+	else if(BirthDate.Day == 23 && BirthDate.Month == 6){
+		zodiacSign = "Krebs"
+	}
 	fmt.Printf("%s %s, born on %02d.%02d.%04d, has the zodiac sign %c.\n",
 		p.FirstName, p.LastName, p.Day, p.Month, p.Year, zodiacSign)
 }
