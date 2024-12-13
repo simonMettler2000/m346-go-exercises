@@ -17,7 +17,7 @@ const (
 	Queen = 'Q'
 	King  = 'K'
 	Ace   = 'A'
-)
+) 
 
 func main() {
 	suits := []rune{Diamonds, Spades, Clubs, Hearts}
